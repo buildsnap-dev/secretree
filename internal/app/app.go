@@ -9,6 +9,8 @@ import (
 	"io"
 	"os"
 	"path/filepath"
+	"runtime/debug"
+	"strings"
 
 	"filippo.io/age"
 	"golang.org/x/crypto/ssh"
@@ -19,8 +21,22 @@ import (
 	"github.com/buildsnap-dev/secretree/internal/keystore"
 )
 
-// Version is stamped into manifests.
-var Version = "0.2.0-dev"
+// Version is stamped into manifests and printed by `secretree version`.
+// Release builds set it through ldflags; a binary from `go install
+// …@v1.2.3` picks the version up from the module's build info; a plain
+// `go build` from a checkout stays "dev".
+var Version = "dev"
+
+func init() {
+	if Version != "dev" {
+		return // set at link time
+	}
+	bi, ok := debug.ReadBuildInfo()
+	if !ok || bi.Main.Version == "" || bi.Main.Version == "(devel)" {
+		return
+	}
+	Version = strings.TrimPrefix(bi.Main.Version, "v")
+}
 
 // App carries output streams and options shared by all commands.
 type App struct {
