@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/crypto/ssh"
 
-	"github.com/andraspalinkas/secretree/internal/collab"
-	"github.com/andraspalinkas/secretree/internal/crypt"
-	"github.com/andraspalinkas/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/collab"
+	"github.com/buildsnap-dev/secretree/internal/crypt"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
 )
 
 // secretreeRemote returns the name of the remote that points at a vault

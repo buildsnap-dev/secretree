@@ -9,7 +9,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/app"
+	"github.com/buildsnap-dev/secretree/internal/app"
 )
 
 const usage = `secretree — private git: encrypted repositories on any host, with pull requests, reviews and CI intact

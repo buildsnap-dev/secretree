@@ -10,10 +10,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/crypt"
-	"github.com/andraspalinkas/secretree/internal/gitx"
-	"github.com/andraspalinkas/secretree/internal/keys"
-	"github.com/andraspalinkas/secretree/internal/vault"
+	"github.com/buildsnap-dev/secretree/internal/crypt"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/vault"
 )
 
 // Join requests can travel through the vault itself: the joiner encrypts

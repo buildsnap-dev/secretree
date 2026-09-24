@@ -7,8 +7,8 @@ import (
 
 	"filippo.io/age"
 
-	"github.com/andraspalinkas/secretree/internal/crypt"
-	"github.com/andraspalinkas/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/crypt"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
 )
 
 // Progress receives human-readable progress lines.

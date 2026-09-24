@@ -1,6 +1,6 @@
 # secretree — notes for coding agents
 
-Private git in Go: encrypted repositories on any host with PRs, reviews and CI intact. Module path github.com/andraspalinkas/secretree; public repo on GitHub, website source on GitLab (andras.palinkas/secretree-site) deployed by Vercel to https://secretree.dev. Docs first: `docs/vault-format.md` is the
+Private git in Go: encrypted repositories on any host with PRs, reviews and CI intact. Module path github.com/buildsnap-dev/secretree; public repo on GitHub, website source on GitLab (andras.palinkas/secretree-site) deployed by Vercel to https://secretree.dev. Docs first: `docs/vault-format.md` is the
 frozen v1 contract; do not change what lands on the remote without a
 decision entry in `docs/decisions.md` and an update to
 `docs/restore-by-hand.md`.

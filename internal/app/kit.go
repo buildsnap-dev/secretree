@@ -11,7 +11,7 @@ import (
 
 	qrcode "github.com/skip2/go-qrcode"
 
-	"github.com/andraspalinkas/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/keys"
 )
 
 // KitHTML writes a printable recovery kit: the same text as the plain kit

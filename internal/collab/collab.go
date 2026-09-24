@@ -25,7 +25,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
 )
 
 const (

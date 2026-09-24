@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/collab"
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/collab"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
 )
 
 // WatchOptions configures Watch.

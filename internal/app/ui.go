@@ -14,8 +14,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
 )
 
 // DefaultUIAddr is where the local UI listens.

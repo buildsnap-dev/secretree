@@ -11,7 +11,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/config"
 )
 
 // ScheduleOptions configures Schedule.

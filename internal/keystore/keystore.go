@@ -19,7 +19,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/andraspalinkas/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/keys"
 )
 
 // ErrNotFound is returned when no bundle exists for a vault id.

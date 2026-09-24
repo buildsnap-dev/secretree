@@ -1,6 +1,6 @@
 # goreleaser configuration: one static binary per platform, checksums,
 # keyless cosign signatures and an SBOM per archive, and a Homebrew formula
-# (uploaded to andraspalinkas/homebrew-tap when HOMEBREW_TAP_TOKEN is set).
+# (uploaded to buildsnap-dev/homebrew-tap when HOMEBREW_TAP_TOKEN is set).
 version: 2
 project_name: secretree
 builds:
@@ -9,7 +9,7 @@ builds:
     env: [CGO_ENABLED=0]
     goos: [darwin, linux, windows]
     goarch: [amd64, arm64]
-    ldflags: ["-s -w -X github.com/andraspalinkas/secretree/internal/app.Version={{.Version}}"]
+    ldflags: ["-s -w -X github.com/buildsnap-dev/secretree/internal/app.Version={{.Version}}"]
     mod_timestamp: "{{ .CommitTimestamp }}"
 archives:
   - formats: [tar.gz]
@@ -37,7 +37,7 @@ release:
     ```sh
     cosign verify-blob checksums.txt \
       --certificate checksums.txt.pem --signature checksums.txt.sig \
-      --certificate-identity-regexp 'https://github.com/andraspalinkas/secretree/' \
+      --certificate-identity-regexp 'https://github.com/buildsnap-dev/secretree/' \
       --certificate-oidc-issuer https://token.actions.githubusercontent.com
     shasum -a 256 -c --ignore-missing checksums.txt
     ```
@@ -45,7 +45,7 @@ homebrew_casks:
     # the cask is written to dist/homebrew/Casks and published by a
     # separate, non-fatal workflow step (see .github/workflows/ci.yml)
   - repository:
-      owner: andraspalinkas
+      owner: buildsnap-dev
       name: homebrew-tap
     skip_upload: "true"
     directory: Casks

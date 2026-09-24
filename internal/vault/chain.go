@@ -14,9 +14,9 @@ import (
 	"filippo.io/age"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/andraspalinkas/secretree/internal/crypt"
-	"github.com/andraspalinkas/secretree/internal/gitx"
-	"github.com/andraspalinkas/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/crypt"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/keys"
 )
 
 // Reader reads files out of a git clone of the vault at HEAD. The clone may

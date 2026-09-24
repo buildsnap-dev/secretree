@@ -4,9 +4,9 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/gitx"
-	"github.com/andraspalinkas/secretree/internal/vault"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/vault"
 )
 
 // Repair rebuilds a vault whose host lost or rewrote generations. It

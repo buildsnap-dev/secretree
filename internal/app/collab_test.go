@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/andraspalinkas/secretree/internal/collab"
+	"github.com/buildsnap-dev/secretree/internal/collab"
 )
 
 // TestPullRequestFlow drives a PR through two devices, policy, CI and CD.

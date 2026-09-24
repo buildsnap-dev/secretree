@@ -7,10 +7,10 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/crypt"
-	"github.com/andraspalinkas/secretree/internal/gitx"
-	"github.com/andraspalinkas/secretree/internal/vault"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/crypt"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/vault"
 )
 
 // prove fetches the vault afresh from the remote, verifies the whole chain,

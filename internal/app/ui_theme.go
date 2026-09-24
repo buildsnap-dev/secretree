@@ -5,8 +5,8 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/collab"
-	"github.com/andraspalinkas/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/collab"
+	"github.com/buildsnap-dev/secretree/internal/config"
 )
 
 // chrome is what every page shows in its top bar: repository, proof

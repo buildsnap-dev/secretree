@@ -39,7 +39,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: Publish the Homebrew cask
         # Needs a fine-grained token with Contents: read/write on
-        # andraspalinkas/homebrew-tap in the HOMEBREW_TAP_TOKEN secret.
+        # buildsnap-dev/homebrew-tap in the HOMEBREW_TAP_TOKEN secret.
         # A missing or wrong token fails only this step, not the release.
         continue-on-error: true
         env:
@@ -48,7 +48,7 @@ jobs:
           set -eu
           test -n "$HOMEBREW_TAP_TOKEN" || { echo "HOMEBREW_TAP_TOKEN not set; skipping"; exit 0; }
           test -f dist/homebrew/Casks/secretree.rb
-          git clone --quiet "https://x-access-token:${HOMEBREW_TAP_TOKEN}@github.com/andraspalinkas/homebrew-tap.git" tap
+          git clone --quiet "https://x-access-token:${HOMEBREW_TAP_TOKEN}@github.com/buildsnap-dev/homebrew-tap.git" tap
           mkdir -p tap/Casks && cp dist/homebrew/Casks/secretree.rb tap/Casks/secretree.rb
           cd tap
           git config user.name "secretree release bot" && git config user.email "noreply@secretree.dev"

@@ -10,12 +10,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/crypt"
-	"github.com/andraspalinkas/secretree/internal/gitx"
-	"github.com/andraspalinkas/secretree/internal/keys"
-	"github.com/andraspalinkas/secretree/internal/keystore"
-	"github.com/andraspalinkas/secretree/internal/vault"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/crypt"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/keystore"
+	"github.com/buildsnap-dev/secretree/internal/vault"
 )
 
 // InitOptions configures Init.

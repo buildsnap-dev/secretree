@@ -15,7 +15,7 @@ import (
 	"github.com/hiddeco/sshsig"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/andraspalinkas/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/keys"
 )
 
 // Digest describes one encrypted file.

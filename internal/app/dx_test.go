@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/andraspalinkas/secretree/internal/collab"
-	"github.com/andraspalinkas/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/collab"
+	"github.com/buildsnap-dev/secretree/internal/config"
 )
 
 // TestOneCommandInit: init wires the remote and pushes in one go, the kit

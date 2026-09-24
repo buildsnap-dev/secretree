@@ -1,6 +1,6 @@
 package app
 
-import "github.com/andraspalinkas/secretree/internal/gitx"
+import "github.com/buildsnap-dev/secretree/internal/gitx"
 
 func gitxRunEnvImpl(dir string, env []string, args ...string) (string, error) {
 	return gitx.RunEnv(dir, env, nil, args...)

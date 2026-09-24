@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/collab"
+	"github.com/buildsnap-dev/secretree/internal/collab"
 )
 
 // The activity page lists collaboration events across all pull requests,

@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/andraspalinkas/secretree/internal/keys"
-	"github.com/andraspalinkas/secretree/internal/keystore"
+	"github.com/buildsnap-dev/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/keystore"
 )
 
 // HelperName is the executable name git looks for.

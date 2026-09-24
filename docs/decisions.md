@@ -256,7 +256,7 @@ signed `resolve` event referencing the comment id.
 
 ## 0031 — Code on GitHub, website on GitLab + Vercel — accepted (2026-09-18)
 
-The tool's source is public at github.com/andraspalinkas/secretree (module
+The tool's source is public at github.com/buildsnap-dev/secretree (module
 path matches, so `go install …@latest` works; releases via goreleaser on
 tags). The website lives in its own repository, gitlab.com/andras.palinkas/
 secretree-site, deployed by Vercel on every push to `main` at
@@ -296,7 +296,7 @@ policy, pipeline and the UI, and prints the fix next to each failure.
 `checksums.txt` is signed with cosign in keyless mode from the release
 workflow (certificate bound to the repository's workflow identity), and
 every archive gets an SPDX SBOM from syft. A Homebrew cask is generated on
-every release and pushed to `andraspalinkas/homebrew-tap` when the
+every release and pushed to `buildsnap-dev/homebrew-tap` when the
 `HOMEBREW_TAP_TOKEN` secret exists; without it the cask is only attached
 to the release. macOS notarization needs an Apple Developer account and
 is not done yet.

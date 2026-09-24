@@ -9,7 +9,7 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/andraspalinkas/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/config"
 )
 
 // UIInstall keeps `secretree ui` running in the background (launchd on

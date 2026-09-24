@@ -8,8 +8,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
 )
 
 var helperDir string

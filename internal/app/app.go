@@ -13,10 +13,10 @@ import (
 	"filippo.io/age"
 	"golang.org/x/crypto/ssh"
 
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/gitx"
-	"github.com/andraspalinkas/secretree/internal/keys"
-	"github.com/andraspalinkas/secretree/internal/keystore"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/keys"
+	"github.com/buildsnap-dev/secretree/internal/keystore"
 )
 
 // Version is stamped into manifests.

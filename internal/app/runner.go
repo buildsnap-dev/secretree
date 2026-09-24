@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/collab"
-	"github.com/andraspalinkas/secretree/internal/gitx"
+	"github.com/buildsnap-dev/secretree/internal/collab"
+	"github.com/buildsnap-dev/secretree/internal/gitx"
 )
 
 // RunnerOptions configures Runner.

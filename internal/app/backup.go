@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/config"
 )
 
 // BackupOptions configures Backup.

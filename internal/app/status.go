@@ -7,8 +7,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/andraspalinkas/secretree/internal/config"
-	"github.com/andraspalinkas/secretree/internal/keystore"
+	"github.com/buildsnap-dev/secretree/internal/config"
+	"github.com/buildsnap-dev/secretree/internal/keystore"
 )
 
 // Status prints the local view: what was backed up, what was proven.

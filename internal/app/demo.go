@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"runtime"
 
-	"github.com/andraspalinkas/secretree/internal/demo"
+	"github.com/buildsnap-dev/secretree/internal/demo"
 )
 
 // Demo runs the full walkthrough in a throw-away directory with a file key
